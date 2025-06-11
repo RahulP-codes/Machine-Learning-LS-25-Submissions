@@ -27,7 +27,7 @@ def numpy_alternate_sort(array: np.ndarray):
           raise ValueError("Input array must be a 1D numpy array.")
 
      # 
-     array.sort()
+     array = np.sort(array)
      noElems = array.size
      sorted_ls = []
 
